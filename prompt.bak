@@ -1,0 +1,454 @@
+أنت الآن مسؤول عن إنهاء مشروع «حين عبرت مصر» – 6 أكتوبر وتحويله من النسخة الحالية إلى Final Production Version جاهزة للعرض والرفع على Vercel.
+
+مهم جدًا:
+
+- لا تكتفِ بتحليل المشروع أو إعطائي اقتراحات.
+- نفّذ التعديلات فعليًا داخل المشروع.
+- افحص المشروع بالكامل قبل التعديل.
+- لا تترك أي placeholder أو قسم ناقص.
+- لا تسألني عن كل تفصيلة؛ اتخذ قرارات تصميمية مناسبة بنفسك.
+- الهدف النهائي: موقع مكتمل، قوي بصريًا، متماسك، ويبدو كمشروع نهائي احترافي وليس Prototype.
+
+1. افحص المشروع بالكامل أولًا
+
+راجع:
+
+- "src/"
+- "public/"
+- "package.json"
+- "vite.config.ts"
+- "index.html"
+- جميع الـ components
+- جميع الـ pages
+- جميع الـ assets
+- CSS / Tailwind / styles
+- أي JSON أو data files
+- أي ملفات صوت وفيديو
+- أي references لمسارات خارج المشروع
+- أي TODO / FIXME / placeholder
+
+ابحث بشكل خاص عن النصوص مثل:
+
+- "بانتظار وضع الملف"
+- "بانتظار الإضافة"
+- "مكان موجز بانتظار الإضافة"
+- "TODO"
+- "Coming soon"
+- "Placeholder"
+- "Add media"
+- "ضع الملف هنا"
+- أي Empty State ناتج عن أن المحتوى غير موجود
+
+يجب ألا يبقى أي شيء من ذلك في النسخة النهائية.
+
+---
+
+2. أكمل جميع الـ Media
+
+أريد الموقع مليان بالمحتوى الحقيقي المناسب للسياق.
+
+أي section فيه مكان فارغ لصورة أو فيديو أو تسجيل:
+
+1. حدد المقصود بالمحتوى من سياق المشروع.
+2. استخدم asset مناسب موجود بالفعل إذا كان متوفرًا.
+3. إذا كان asset غير موجود، ابحث عن بديل مناسب ومسموح استخدامه، أو أنشئ/جهز representation مناسب بدون كسر المشروع.
+4. اربط الملف فعليًا بالمشروع.
+5. تأكد أن المسار يعمل في Vite وVercel.
+6. لا تستخدم absolute paths من الجهاز.
+7. لا تعتمد على "/sdcard/...".
+8. لا تعتمد على "/data/user/...".
+9. لا تعتمد على ملفات OpenCode المؤقتة.
+
+كل media يجب أن يكون جزءًا من المشروع نفسه أو مصدرًا خارجيًا ثابتًا ومقصودًا.
+
+---
+
+3. التسجيلات الصوتية
+
+أي مكان مكتوب فيه:
+
+"بانتظار وضع الملف"
+
+لا أريده إطلاقًا.
+
+حوّله إلى Audio Player حقيقي واحترافي إذا كان التسجيل متوفرًا.
+
+الـ player يجب أن يحتوي على:
+
+- Play / Pause
+- progress
+- duration
+- volume
+- اسم التسجيل
+- وصف مختصر
+- visual treatment مناسب للموقع
+
+ولو التسجيل الأصلي غير موجود، لا تترك صندوقًا فارغًا.
+
+بدل ذلك استخدم محتوى مناسبًا أو representation واضحًا ومتكاملًا حسب سياق المشروع.
+
+---
+
+4. الصور والفيديوهات
+
+راجع كل:
+
+- "<img>"
+- "<video>"
+- background images
+- thumbnails
+- galleries
+- media cards
+
+وتأكد من:
+
+- عدم وجود broken images
+- عدم وجود مساحة فارغة
+- وجود fallback مناسب
+- "alt" مناسب للصور
+- poster مناسب للفيديو
+- aspect ratios متناسقة
+- lazy loading عند الحاجة
+- عدم تحميل ملفات ضخمة بلا داعٍ
+
+أي card مكتوب فيه:
+
+"مكان موجز بانتظار الإضافة"
+
+أو أي نص مشابه:
+
+استبدله بمحتوى فعلي.
+
+---
+
+5. صورة الرئيس السادات
+
+راجع الجزء الخاص بالرئيس محمد أنور السادات.
+
+أريد صورة مناسبة له بجودة جيدة وتناسب التصميم العام.
+
+لا تضع الصورة بشكل عشوائي.
+
+اعمل لها:
+
+- crop مناسب
+- aspect ratio مناسب
+- border / radius مناسب
+- subtle treatment
+- typography متناسقة
+- caption أو context إذا كان مناسبًا
+
+لو توجد صورة حالية سيئة أو low-quality، استبدلها بصورة أفضل.
+
+المهم ألا تكون الصورة مشوهة أو stretched.
+
+---
+
+6. الهوية البصرية
+
+المشروع عن التاريخ المصري ومدينة 6 أكتوبر.
+
+أريد visual identity قوية ومحترمة:
+
+- Egyptian historical atmosphere
+- modern UI
+- cinematic feeling
+- premium museum / archive style
+- ألوان متناسقة
+- contrast ممتاز
+- typography واضحة
+- spacing احترافي
+- cards مرتبة
+- transitions ناعمة
+
+لا تحول الموقع إلى تصميم مبالغ فيه أو مليء بالـ animations.
+
+الأولوية:
+
+CONTENT > CLARITY > VISUAL QUALITY
+
+---
+
+7. راجع الموقع كاملًا وليس الـ Media فقط
+
+مر على الموقع من أول الصفحة لآخرها.
+
+افحص:
+
+- Navbar
+- Hero
+- Intro
+- Timeline
+- Historical sections
+- Media sections
+- Gallery
+- Audio
+- Video
+- Maps
+- Quotes
+- People
+- Events
+- Footer
+
+أي section ضعيف أو فارغ أو غير مكتمل:
+
+أصلحه.
+
+أي section مكرر بدون داعٍ:
+
+نظمه.
+
+أي section لا يخدم التجربة:
+
+حسّنه أو أعد هيكلته.
+
+---
+
+8. لا تترك مساحات فارغة
+
+هذا مهم جدًا.
+
+لا أريد:
+
+- empty cards
+- blank media containers
+- "coming soon"
+- "waiting for file"
+- "add image"
+- "add video"
+- placeholders
+- fake skeletons ظاهرة للمستخدم
+- sections فيها عنوان فقط بدون محتوى
+
+لو الـ design فيه مساحة مخصصة للمحتوى، املأها بمحتوى فعلي.
+
+---
+
+9. Responsive
+
+اختبر التصميم على:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+خصوصًا:
+
+- Navbar
+- Hero
+- timeline
+- cards
+- images
+- video
+- audio
+- gallery
+- footer
+
+لا تسمح بـ:
+
+- horizontal overflow
+- text خارج الشاشة
+- images مكسورة
+- cards ضيقة جدًا
+- buttons متداخلة
+- navbar مكسورة
+
+---
+
+10. Accessibility
+
+حسن:
+
+- semantic HTML
+- alt text
+- keyboard navigation
+- focus states
+- contrast
+- buttons
+- aria labels عند الحاجة
+
+لا تضحي بالـ accessibility من أجل الشكل.
+
+---
+
+11. Performance
+
+راجع:
+
+- image sizes
+- unnecessary dependencies
+- unnecessary rerenders
+- lazy loading
+- code splitting إذا كان مناسبًا
+- large assets
+
+لا تضف dependencies لمجرد إضافة dependency.
+
+استخدم الموجود قدر الإمكان.
+
+---
+
+12. Vercel Production
+
+جهز المشروع بالكامل لـ Vercel.
+
+راجع:
+
+"package.json"
+
+وتأكد من وجود build صحيح.
+
+اختبر:
+
+npm run build
+
+يجب أن ينجح بدون errors.
+
+راجع:
+
+vite.config.ts
+
+وتأكد أن إعداداته مناسبة لـ Vercel.
+
+تأكد أن:
+
+- لا يوجد filesystem dependency
+- لا يوجد path خاص بالجهاز
+- لا يوجد dependency على "/sdcard"
+- لا يوجد dependency على "/data/user"
+- لا يوجد dependency على OpenCode temp
+- لا يوجد hardcoded localhost داخل production
+- جميع assets paths صحيحة
+- routes تعمل في production
+- build output صحيح
+
+إذا كان المشروع SPA ويحتاج Vercel rewrite، أضف الإعداد المناسب.
+
+---
+
+13. تنظيف المشروع
+
+بعد الانتهاء:
+
+ابحث عن:
+
+TODO
+FIXME
+placeholder
+coming soon
+waiting
+pending
+dummy
+test
+localhost
+127.0.0.1
+/sdcard
+/data/user
+opencode
+tmp
+
+ولا تترك أي شيء غير مقصود منه في production.
+
+احذف الملفات المؤقتة غير الضرورية فقط.
+
+لا تحذف أي asset أو code قبل التأكد أنه غير مستخدم.
+
+---
+
+14. Quality Control
+
+بعد كل التعديلات:
+
+شغّل:
+
+npm run build
+
+ثم افحص المشروع بحثًا عن:
+
+- TypeScript errors
+- build errors
+- missing imports
+- missing assets
+- broken paths
+- invalid JSX
+- console errors
+- broken components
+
+إذا ظهر error:
+
+أصلحه بنفسك ولا تتوقف عند الإبلاغ عنه.
+
+كرر الاختبار حتى يصبح build نظيفًا.
+
+---
+
+15. أهم قاعدة
+
+لا أريد منك أن ترجع لي بقائمة:
+
+"يمكنك لاحقًا إضافة..."
+
+أو:
+
+"يفضل إضافة..."
+
+أو:
+
+"المشروع يحتاج..."
+
+أنت المطلوب منك تنفيذ ذلك الآن.
+
+لا تترك العمل لي.
+
+إذا كان هناك قرار تصميمي غير محدد، اختر أفضل حل بنفسك بناءً على:
+
+- موضوع المشروع
+- التصميم الحالي
+- تجربة المستخدم
+- جودة العرض
+- قابلية النشر
+
+---
+
+16. النتيجة المطلوبة
+
+في النهاية أريد:
+
+FINAL PRODUCTION WEBSITE
+
+وليس:
+
+Prototype
+
+وليس:
+
+Demo
+
+وليس:
+
+Template
+
+وليس:
+
+صفحة فيها أماكن تنتظر ملفات.
+
+أريد الموقع عند فتحه أن يكون:
+
+- كامل
+- مليان محتوى
+- بدون placeholders
+- بدون broken media
+- بدون sections فاضية
+- بصريًا قوي
+- Responsive
+- سريع
+- accessible
+- قابل للنشر
+- Vercel-ready
+
+ابدأ الآن.
+
+أولًا افحص المشروع بالكامل، ثم نفّذ التعديلات مباشرة، ثم شغّل build، ثم أصلح أي مشاكل تظهر.
+
+لا تتوقف حتى تصل إلى نسخة نهائية مستقرة.

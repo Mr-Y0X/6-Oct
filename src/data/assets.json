@@ -1,0 +1,1934 @@
+{
+  "$schema": "مصدر مركزي لكل الميديا — src/data/assets.json",
+  "version": 1,
+  "integrityNote": "ممنوع تقديم أي مادة أعاد المشروع إنتاجها على أنها أرشيفية أصلية. أي مادة بلا ملف موثق تكون status=placeholder ولا تُعرض إلا كموضع محجوز واضح.",
+  "assets": [
+    {
+      "id": "a-hero-bg",
+      "title": "القناة قبيل الفجر — غلاف التجربة",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/hero-bg.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "مشهد فني تفسيري لأجواء قناة السويس في الساعة الصامتة قبيل العبور.",
+      "tags": [
+        "القناة",
+        "افتتاحية"
+      ],
+      "chapter": [
+        "01",
+        "02"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-canal-aerial",
+      "title": "محور القناة من الجو — لقطة استطلاعية",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/canal-aerial.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "رؤية جوية فنية لمحور قناة السويس بأسلوب صور الاستطلاع العسكري.",
+      "tags": [
+        "القناة",
+        "استطلاع"
+      ],
+      "chapter": [
+        "01",
+        "04"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-crossing-boats",
+      "title": "موجات العبور الأولى — قوارب المشاة",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/crossing-boats.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "تصور فني لقوارب المشاة وهي تعبر القناة تحت مظلة نيران المدفعية والضربة الجوية.",
+      "tags": [
+        "العبور",
+        "المشاة"
+      ],
+      "chapter": [
+        "03"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-water-pumps",
+      "title": "مضخات المياه وسلاح المهندسين",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/water-pumps.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "تصور فني لعمل سلاح المهندسين بمضخات المياه عالية الضغط لفتح ثغرات الساتر الترابي.",
+      "tags": [
+        "المهندسون",
+        "الساتر الترابي"
+      ],
+      "chapter": [
+        "03"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-flag-east",
+      "title": "رفع العلم المصري على الضفة الشرقية",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/flag-east.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "تصور فني للحظة رفع العلم الوطني فوق ساتر خط بارليف شرق القناة.",
+      "tags": [
+        "العلم",
+        "الضفة الشرقية"
+      ],
+      "chapter": [
+        "03",
+        "09"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-pontoon-bridges",
+      "title": "الكباري العائمة وعبور الدبابات والمدرعات",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/pontoon-bridges.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "مشهد عبور المدرعات والدبابات المصرية فوق الكباري المائية التي نصبها المهندسون العسكريون.",
+      "tags": [
+        "الكباري",
+        "الدبابات"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-barlev-breach",
+      "title": "اقتحام حصون خط بارليف",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/barlev-breach.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "مشهد اقتحام النقاط الحصينة والدشم الخرسانية على الساتر الترابي.",
+      "tags": [
+        "خط بارليف",
+        "الصاعقة"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-operations-room",
+      "title": "غرفة العمليات المركزية (المركز 10)",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/operations-room.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "مشهد تفسيري داخل غرفة العمليات الاستراتيجية أثناء إدارة وتوجيه ملحمة العبور.",
+      "tags": [
+        "القيادة",
+        "غرفة العمليات"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-field-night",
+      "title": "غرفة القيادة الميدانية الليلية",
+      "type": "image",
+      "category": "interpretive",
+      "file": "/images/field-night.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "تصور فني لأجواء التخطيط والاتصالات اللاسلكية في الجبهة قبيل المعركة.",
+      "tags": [
+        "القيادة",
+        "الجبهة"
+      ],
+      "chapter": [
+        "01"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "a-paper",
+      "title": "خامة وثيقة أرشيفية رسمية",
+      "type": "document",
+      "category": "interpretive",
+      "file": "/images/paper-texture.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "مشروع حين عبرت مصر",
+      "sourceUrl": null,
+      "date": null,
+      "credit": "© مشروع حين عبرت مصر",
+      "rights": "© مشروع حين عبرت مصر",
+      "description": "خامة ورق أرشيفي تُستخدم كخلفية عرض مؤقتة حتى يتوفر المسح الضوئي الموثق للوثيقة.",
+      "tags": [
+        "وثائق",
+        "خامة عرض"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "06"
+      ],
+      "authenticity": "interpretive",
+      "status": "ready"
+    },
+    {
+      "id": "doc-communique-7",
+      "title": "البيان العسكري رقم (٧) — بيان العبور",
+      "type": "document",
+      "category": "documents",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "القيادة العامة للقوات المسلحة المصرية عبر إذاعة القاهرة",
+      "sourceUrl": "https://gate.ahram.org.eg/News/2289798.aspx",
+      "date": "6 أكتوبر 1973 — الساعة 19:00",
+      "credit": "الإذاعي صبري سلامة — إذاعة القاهرة",
+      "rights": "وثيقة تاريخية عامة — بانتظار المسح الضوئي الموثق",
+      "description": "«بسم الله الرحمن الرحيم.. نجحت قواتنا المسلحة في عبور قناة السويس على طول المواجهة، وتم الاستيلاء على منطقة الشاطئ الشرقي للقناة» — أذاعه صبري سلامة في السابعة مساءً.",
+      "tags": [
+        "البيانات العسكرية",
+        "العبور",
+        "صبري سلامة"
+      ],
+      "chapter": [
+        "06",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "doc-directive",
+      "title": "التوجيه الاستراتيجي للقائد الأعلى للقوات المسلحة",
+      "type": "document",
+      "category": "documents",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "الأرشيف الرئاسي المصري",
+      "sourceUrl": null,
+      "date": "5 أكتوبر 1973",
+      "credit": "الأرشيف الرئاسي المصري",
+      "rights": "وثيقة تاريخية منشورة — بانتظار المسح الضوئي الموثق",
+      "description": "وثيقة التوجيه الاستراتيجي الصادرة إلى وزير الحربية، وتتضمن إنهاء حالة اللاسلم واللاحرب وتحرير الأرض المحتلة.",
+      "tags": [
+        "القيادة",
+        "القرار",
+        "التوجيه الاستراتيجي"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "doc-communique-1",
+      "title": "البيان العسكري رقم (١) — بداية الاشتباك",
+      "type": "document",
+      "category": "documents",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "القيادة العامة للقوات المسلحة المصرية عبر إذاعة القاهرة",
+      "sourceUrl": "https://gate.ahram.org.eg/News/2289798.aspx",
+      "date": "6 أكتوبر 1973 — الساعة 14:15",
+      "credit": "الإذاعي حلمي البلك — إذاعة القاهرة",
+      "rights": "وثيقة تاريخية عامة — بانتظار المسح الضوئي الموثق",
+      "description": "«هنا القاهرة.. قام العدو في الساعة الواحدة والنصف من بعد ظهر اليوم بمهاجمة قواتنا» — أول البيانات، أذاعه حلمي البلك في الثانية والربع ضمن خطة الخداع الاستراتيجي.",
+      "tags": [
+        "البيانات العسكرية",
+        "إذاعة القاهرة"
+      ],
+      "chapter": [
+        "02",
+        "06",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "vid-crossing-doc",
+      "title": "ملحمة العبور — فيلم وزارة الدفاع 2026",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/CpHTabvjdpA",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=CpHTabvjdpA",
+      "date": "3 أكتوبر 2026",
+      "credit": "وزارة الدفاع المصرية — embed رسمي",
+      "rights": "© وزارة الدفاع المصرية — تضمين رسمي، لا إعادة استضافة",
+      "description": "فيلم توثيقي من إنتاج الشؤون المعنوية: التخطيط والتنفيذ، غرفة القيادة، الضربة الجوية، المدفعية، الكباري وعبور الدبابات — مع مقولات للرئيس السادات.",
+      "tags": [
+        "العبور",
+        "وثائقي",
+        "غرفة القيادة"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready",
+      "license": "official-embed",
+      "usage": "embed"
+    },
+    {
+      "id": "vid-sadat-speech",
+      "title": "حرب أكتوبر المجيدة — خمسون عامًا (عبور إنقاذ إنجاز)",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/2TXqAqiKsB0",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=2TXqAqiKsB0",
+      "date": "2023",
+      "credit": "وزارة الدفاع المصرية — embed رسمي",
+      "rights": "© وزارة الدفاع المصرية — تضمين رسمي، لا إعادة استضافة",
+      "description": "فيلم الذكرى الخمسين: شهادات قادة — أمر العبور بخط اليد، التنسيق حول ساعة الصفر، الضربة الجوية الأولى بـ220 طائرة.",
+      "tags": [
+        "شهادات",
+        "القادة",
+        "الذكرى الخمسون"
+      ],
+      "chapter": [
+        "05",
+        "07",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready",
+      "license": "official-embed",
+      "usage": "embed"
+    },
+    {
+      "id": "aud-radio-communique-7",
+      "title": "التسجيل الإذاعي للبيان العسكري رقم (٧)",
+      "type": "audio",
+      "category": "speeches",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "speaker": "صبري سلامة",
+      "person": null,
+      "source": "إذاعة جمهورية مصر العربية",
+      "sourceUrl": "https://gate.ahram.org.eg/News/2289798.aspx",
+      "date": "6 أكتوبر 1973 — الساعة 19:00",
+      "credit": "الإذاعي صبري سلامة — إذاعة القاهرة (بانتظار الملف الموثق)",
+      "rights": "تسجيل تاريخي — لا يُعرض إلا الملف الموثق",
+      "description": "صوت الإذاعي صبري سلامة يقرأ البيان العسكري رقم 7 (بيان العبور) في السابعة مساءً — وفق توثيق بوابة الأهرام والهيئة الوطنية للإعلام.",
+      "tags": [
+        "إذاعة القاهرة",
+        "بيانات"
+      ],
+      "chapter": [
+        "02",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder",
+      "durationLabel": "بانتظار الملف الموثق"
+    },
+    {
+      "id": "aud-sadat-excerpt",
+      "title": "مقتطف صوتي من خطاب مجلس الشعب",
+      "type": "audio",
+      "category": "speeches",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "speaker": "محمد أنور السادات",
+      "person": "p-sadat",
+      "source": "إذاعة القاهرة — الأرشيف الصوتي",
+      "sourceUrl": null,
+      "date": "16 أكتوبر 1973",
+      "credit": "إذاعة القاهرة (بانتظار الملف الموثق)",
+      "rights": "تسجيل تاريخي — لا يُعرض إلا الملف الموثق",
+      "description": "مقتطف صوتي من الخطاب أمام مجلس الشعب لتوثيق ملحمة القوات المسلحة.",
+      "tags": [
+        "خطابات",
+        "السادات"
+      ],
+      "chapter": [
+        "05",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder",
+      "durationLabel": "بانتظار الملف الموثق"
+    },
+    {
+      "id": "ext-sadat-video-archive",
+      "title": "الأرشيف المرئي للرئيس السادات — 317+ مقطع",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "مكتبة الإسكندرية — الأرشيف الرقمي للرئيس محمد أنور السادات",
+      "sourceUrl": "http://sadat.bibalex.org/Historic_Documents/Historic_Docs_All.aspx?PageIndex=1&TabName=Video",
+      "date": null,
+      "credit": "مكتبة الإسكندرية — sadat@bibalex.org",
+      "rights": "حقوق العرض لمكتبة الإسكندرية — مرجع خارجي فقط دون إعادة استضافة",
+      "license": "unknown",
+      "usage": "external",
+      "description": "أكثر من 317 مقطع فيديو للرئيس السادات (برامج حوارية وتقارير إخبارية وأفلام تسجيلية) ضمن أرشيف يضم 220 فيلمًا تسجيليًا ومواد صوتية تشمل مقتطفات من حرب أكتوبر.",
+      "tags": [
+        "السادات",
+        "فيديو",
+        "خطابات"
+      ],
+      "chapter": [
+        "05",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-sadat-docs",
+      "title": "وثائق أرشيف السادات — 970+ وثيقة",
+      "type": "document",
+      "category": "documents",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "مكتبة الإسكندرية — الأرشيف الرقمي للرئيس محمد أنور السادات",
+      "sourceUrl": "http://sadat.bibalex.org/Historic_Documents/Historic_Docs_All.aspx?PageIndex=1&TabName=Document",
+      "date": null,
+      "credit": "مكتبة الإسكندرية — sadat@bibalex.org",
+      "rights": "حقوق العرض لمكتبة الإسكندرية — مرجع خارجي فقط دون إعادة استضافة",
+      "license": "unknown",
+      "usage": "external",
+      "description": "أكثر من 970 وثيقة مصرية وأمريكية، بينها وثائق بخط يد الرئيس ووثائق عن حرب أكتوبر في الوثائق الأمريكية.",
+      "tags": [
+        "وثائق",
+        "السادات"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-modernegypt",
+      "title": "ذاكرة مصر المعاصرة — صور وخرائط وصوتيات أكتوبر",
+      "type": "image",
+      "category": "archival",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "مكتبة الإسكندرية — ذاكرة مصر المعاصرة",
+      "sourceUrl": "https://modernegypt.bibalex.org/collections/home/default.aspx",
+      "date": null,
+      "credit": "مكتبة الإسكندرية — ذاكرة مصر المعاصرة",
+      "rights": "حقوق العرض لمكتبة الإسكندرية — مرجع خارجي فقط دون إعادة استضافة",
+      "license": "unknown",
+      "usage": "external",
+      "description": "آلاف الوثائق: صور وخرائط وصوتيات نادرة من غرفة العمليات والجبهة، بينها صور للرئيس السادات مع رئيس الأركان سعد الدين الشاذلي، وخرائط وخطط الحرب والبيانات العسكرية.",
+      "tags": [
+        "صور",
+        "خرائط",
+        "صوتيات",
+        "وثائق",
+        "الجبهة"
+      ],
+      "chapter": [
+        "04",
+        "06",
+        "08"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-mod-war-docs",
+      "title": "وثائق حرب أكتوبر 1973 (أسرار الحرب) — وزارة الدفاع",
+      "type": "document",
+      "category": "documents",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القوات المسلحة المصرية",
+      "sourceUrl": "https://www.mod.gov.eg/ModWebSite/Documents.aspx",
+      "date": null,
+      "credit": "وزارة الدفاع المصرية",
+      "rights": "وثائق رسمية — مرجع خارجي فقط دون إعادة استضافة",
+      "license": "unknown",
+      "usage": "external",
+      "description": "صفحة وثائق حرب أكتوبر الرسمية على موقع وزارة الدفاع المصرية.",
+      "tags": [
+        "وثائق",
+        "وزارة الدفاع"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-mod-panorama",
+      "title": "بانوراما حرب أكتوبر — المزارات والمتاحف العسكرية",
+      "type": "image",
+      "category": "panorama",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — إدارة المتاحف العسكرية",
+      "sourceUrl": "https://www.mod.gov.eg/ModWebSite/MuseumDetailsAr.aspx?id=2",
+      "date": "5 أكتوبر 1989",
+      "credit": "وزارة الدفاع المصرية",
+      "rights": "مرجع مؤسسي — حقوق العرض لجهة المتحف، لا يُعاد استضافته دون إذن",
+      "license": "unknown",
+      "usage": "external",
+      "description": "متحف بانوراما حرب أكتوبر بشارع صلاح سالم: ألبومات صور القاعة الدائرية وغرفة عمليات القيادة العامة وقادة القوات المسلحة في حرب أكتوبر.",
+      "tags": [
+        "بانوراما",
+        "متاحف",
+        "القادة"
+      ],
+      "chapter": [
+        "03",
+        "08",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-sis-world-press",
+      "title": "حرب أكتوبر كما يراها العالم — الهيئة العامة للاستعلامات",
+      "type": "document",
+      "category": "newspapers",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "الهيئة العامة للاستعلامات المصرية",
+      "sourceUrl": "https://sis.gov.eg/Story/128861/%D8%AD%D8%B1%D8%A8-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1-.-.-%D9%83%D9%85%D8%A7-%D9%8A%D8%B1%D8%A7%D9%87%D8%A7-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85?lang=ar",
+      "date": "5 أكتوبر 2016",
+      "credit": "الهيئة العامة للاستعلامات — إعداد أحمد مرسي",
+      "rights": "مادة توثيقية رسمية — مرجع خارجي، حقوق الاقتباسات لجهات النشر الأصلية",
+      "license": "unknown",
+      "usage": "external",
+      "description": "توثيق رسمي لشهادات المؤرخين وكبار القادة وتعليقات الصحافة العالمية على حرب أكتوبر.",
+      "tags": [
+        "صحافة",
+        "العالم",
+        "شهادات"
+      ],
+      "chapter": [
+        "06",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-sis-quotes",
+      "title": "قالوا عن حرب أكتوبر — الهيئة العامة للاستعلامات",
+      "type": "document",
+      "category": "newspapers",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "الهيئة العامة للاستعلامات المصرية",
+      "sourceUrl": "https://www.sis.gov.eg/Story/264014/%D9%82%D8%A7%D9%84%D9%88%D8%A7-%D8%B9%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1?lang=ar",
+      "date": "28 سبتمبر 2023",
+      "credit": "الهيئة العامة للاستعلامات",
+      "rights": "مادة توثيقية رسمية — مرجع خارجي، حقوق الاقتباسات لجهات النشر الأصلية",
+      "license": "unknown",
+      "usage": "external",
+      "description": "أبرز ما نُشر وكُتب وقيل تخليدًا وتعليقًا على نصر أكتوبر في الصحافة العالمية والأدب.",
+      "tags": [
+        "صحافة",
+        "توثيق"
+      ],
+      "chapter": [
+        "06",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "press-nyt-1973",
+      "title": "نيويورك تايمز — المصريون يعبرون القناة",
+      "type": "document",
+      "category": "newspapers",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "صحيفة نيويورك تايمز الأمريكية عبر الهيئة العامة للاستعلامات",
+      "sourceUrl": "https://www.sis.gov.eg/Story/264014/%D9%82%D8%A7%D9%84%D9%88%D8%A7-%D8%B9%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1?lang=ar",
+      "date": "7 أكتوبر 1973",
+      "credit": "نيويورك تايمز 7 أكتوبر 1973",
+      "rights": "قصاصة صحفية — حقوق النشر لجهة النشر الأصلية، مرجع خارجي فقط",
+      "license": "unknown",
+      "usage": "external",
+      "description": "«العرب والإسرائيليون يتقاتلون على جبهتين والمصريون يعبرون قناة السويس، ومعارك جوية مكثفة» — تغطية اليوم الأول للعبور.",
+      "tags": [
+        "صحافة",
+        "نيويورك تايمز",
+        "العبور"
+      ],
+      "chapter": [
+        "06",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "press-telegraph-1973",
+      "title": "ديلي تلجراف — غيّرت مجرى التاريخ",
+      "type": "document",
+      "category": "newspapers",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "صحيفة ديلي تلجراف البريطانية عبر الهيئة العامة للاستعلامات",
+      "sourceUrl": "https://www.sis.gov.eg/Story/264014/%D9%82%D8%A7%D9%84%D9%88%D8%A7-%D8%B9%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1?lang=ar",
+      "date": "7 أكتوبر 1973",
+      "credit": "ديلي تلجراف 7 أكتوبر 1973",
+      "rights": "قصاصة صحفية — حقوق النشر لجهة النشر الأصلية، مرجع خارجي فقط",
+      "license": "unknown",
+      "usage": "external",
+      "description": "«لقد غيّرت حرب أكتوبر — عندما اقتحم الجيش المصري قناة السويس واجتاح خط بارليف — مجرى التاريخ بالنسبة لمصر وبالنسبة للشرق الأوسط بأسره».",
+      "tags": [
+        "صحافة",
+        "ديلي تلجراف",
+        "خط بارليف"
+      ],
+      "chapter": [
+        "06",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "press-times-1973",
+      "title": "التايمز — ذهب خط بارليف على غير رجعة",
+      "type": "document",
+      "category": "newspapers",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "صحيفة التايمز البريطانية عبر الهيئة العامة للاستعلامات",
+      "sourceUrl": "https://www.sis.gov.eg/Story/264014/%D9%82%D8%A7%D9%84%D9%88%D8%A7-%D8%B9%D9%86-%D8%AD%D8%B1%D8%A8-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1?lang=ar",
+      "date": "31 أكتوبر 1973",
+      "credit": "التايمز البريطانية 31 أكتوبر 1973",
+      "rights": "قصاصة صحفية — حقوق النشر لجهة النشر الأصلية، مرجع خارجي فقط",
+      "license": "unknown",
+      "usage": "external",
+      "description": "«كانت (الفردان) شرق قناة السويس من أول المواقع التي استولت عليها القوات المصرية.. وهكذا ذهب خط بارليف الإسرائيلي على غير رجعة».",
+      "tags": [
+        "صحافة",
+        "التايمز",
+        "الفردان"
+      ],
+      "chapter": [
+        "06",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-maspero-1989",
+      "title": "افتتاح بانوراما حرب أكتوبر 1989 — ماسبيرو",
+      "type": "document",
+      "category": "newspapers",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "الهيئة الوطنية للإعلام — ماسبيرو",
+      "sourceUrl": "https://www.maspero.eg/same-day/2023/10/05/723219/1989-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%A8%D8%A7%D9%86%D9%88%D8%B1%D8%A7%D9%85%D8%A7-%D8%AD%D8%B1%D8%A8-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1",
+      "date": "5 أكتوبر 1989",
+      "credit": "الهيئة الوطنية للإعلام",
+      "rights": "مادة توثيقية رسمية — مرجع خارجي فقط",
+      "license": "unknown",
+      "usage": "external",
+      "description": "في 5 أكتوبر 1989 افتُتحت بانوراما حرب أكتوبر بمشاركة الهيئة الهندسية للقوات المسلحة وخبراء من كوريا الشمالية.",
+      "tags": [
+        "بانوراما",
+        "توثيق"
+      ],
+      "chapter": [
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "ext-un-338",
+      "title": "قرار مجلس الأمن 338 (1973) — وقف إطلاق النار",
+      "type": "document",
+      "category": "documents",
+      "file": null,
+      "embedUrl": null,
+      "poster": null,
+      "source": "الأمم المتحدة — مجلس الأمن",
+      "sourceUrl": "https://docs.un.org/ar/S/RES/338(1973)",
+      "date": "22 أكتوبر 1973",
+      "credit": "الأمم المتحدة — S/RES/338(1973)",
+      "rights": "وثيقة دولية رسمية عامة — مرجع خارجي",
+      "license": "public-record",
+      "usage": "external",
+      "description": "قرار مجلس الأمن الداعي إلى وقف إطلاق النار خلال 12 ساعة وتنفيذ القرار 242 وبدء المفاوضات — اعتُمد 22 أكتوبر 1973.",
+      "tags": [
+        "وثائق",
+        "الأمم المتحدة",
+        "وقف إطلاق النار"
+      ],
+      "chapter": [
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "placeholder"
+    },
+    {
+      "id": "img-cia-crossing-1973",
+      "title": "مصريون يعبرون قناة السويس — أكتوبر 1973",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/cia-crossing-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "وكالة الاستخبارات المركزية الأمريكية (CIA)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptians_Crossing_Suez_Canal_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "CIA — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "مصريون يعبرون قناة السويس أثناء الحرب — من كتيّب «الرئيس نيكسون ودور الاستخبارات في حرب 1973».",
+      "tags": [
+        "العبور",
+        "القناة",
+        "الجبهة"
+      ],
+      "chapter": [
+        "03",
+        "04",
+        "08"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-cia-checkpoint-1973",
+      "title": "قافلة مصرية عبر نقطة الأمم المتحدة — نوفمبر 1973",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/cia-checkpoint-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "وكالة الاستخبارات المركزية الأمريكية (CIA)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:UN_Checkpoint_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "date": "نوفمبر 1973",
+      "credit": "CIA — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "قافلة شاحنات مصرية تمر عبر نقطة تفتيش للأمم المتحدة — من كتيّب «الرئيس نيكسون ودور الاستخبارات في حرب 1973».",
+      "tags": [
+        "الأمم المتحدة",
+        "الجبهة",
+        "الإمداد"
+      ],
+      "chapter": [
+        "04",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-east-bank-carts",
+      "title": "جنود مصريون بالعربات على الضفة الشرقية",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/east-bank-carts.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — من كتاب «المعارك الحربية على الجبهة المصرية» لجمال حماد (دار الشروق)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_soldiers_with_carts.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "Gammal Hammad — Dār al-Shurūq",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "جنود مصريون على الضفة الشرقية بعربات ذات أربع عجلات لنقل الأسلحة والمعدات قبل عبور المركبات.",
+      "tags": [
+        "الضفة الشرقية",
+        "المشاة",
+        "الإمداد"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-barlev-prisoners",
+      "title": "أسرى في حصن اللسان قبالة بورتوفيق",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/barlev-prisoners.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — من كتاب «المعارك الحربية على الجبهة المصرية» لجمال حماد (دار الشروق)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bar_Lev_line_with_prisoners.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "Gammal Hammad — Dār al-Shurūq",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "أسرى إسرائيليون في حصن «اللسان» من حصون خط بارليف قبالة بورتوفيق — وفي الخلفية دبابة M48A3.",
+      "tags": [
+        "الأسرى",
+        "خط بارليف",
+        "بورتوفيق"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-barlev-fort",
+      "title": "خندق ودشمة من خط بارليف",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/barlev-fort.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — من كتاب «المعارك الحربية على الجبهة المصرية» لجمال حماد (دار الشروق)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bar_Lev_line_fort.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "Gammal Hammad — Dār al-Shurūq",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "خندق ودشمة خرسانية من تحصينات خط بارليف على الضفة الشرقية للقناة.",
+      "tags": [
+        "خط بارليف",
+        "تحصينات"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-climbing-infantry",
+      "title": "المشاة يتسلقون الساتر — 6 أكتوبر 1973",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/climbing-infantry.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — من كتاب «المعارك الحربية على الجبهة المصرية» لجمال حماد (دار الشروق)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Climbing_infantry.jpg",
+      "date": "6 أكتوبر 1973",
+      "credit": "Gammal Hammad — Dār al-Shurūq",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "مشاة مصريون يتسلقون الساتر الرملي على الضفة الشرقية للقناة في يوم العبور.",
+      "tags": [
+        "المشاة",
+        "الساتر الترابي",
+        "العبور"
+      ],
+      "chapter": [
+        "02",
+        "03"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-crossing-barlev-photo",
+      "title": "جنود مصريون يعبرون خط بارليف",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/crossing-barlev.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — via بوابة الأهرام",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crossing_the_Bar_Lev_Line%2C_October_War.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "gate.ahram.org.eg",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "جنود مصريون يعبرون تحصينات خط بارليف أثناء حرب أكتوبر.",
+      "tags": [
+        "العبور",
+        "خط بارليف"
+      ],
+      "chapter": [
+        "03"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-flag-barlev-photo",
+      "title": "رفع العلم فوق حصن بارليف بعد الاستيلاء عليه",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/flag-barlev.png",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — via الأهرام English",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_soldiers_raising_the_Egyptian_flag_over_a_Bar_Lev_Line_fort_after_capturing_it.png",
+      "date": "أكتوبر 1973",
+      "credit": "english.ahram.org.eg",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "جنود مصريون يرفعون العلم المصري فوق حصن من حصون خط بارليف بعد الاستيلاء عليه.",
+      "tags": [
+        "العلم",
+        "خط بارليف",
+        "النصر"
+      ],
+      "chapter": [
+        "03",
+        "08",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "img-storming-barlev",
+      "title": "اقتحام خط بارليف",
+      "type": "image",
+      "category": "archival",
+      "file": "/media/images/archival/storming-barlev.png",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — via الأهرام English",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_soldiers_during_their_storming_of_the_Bar_Lev_Line.png",
+      "date": "أكتوبر 1973",
+      "credit": "english.ahram.org.eg",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "جنود مصريون أثناء اقتحام تحصينات خط بارليف.",
+      "tags": [
+        "اقتحام",
+        "خط بارليف",
+        "المشاة"
+      ],
+      "chapter": [
+        "03"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-sadat-cia-1973",
+      "title": "الرئيس أنور السادات — أكتوبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/sadat-cia-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-sadat",
+      "source": "وكالة الاستخبارات المركزية الأمريكية (CIA)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_President_Anwar_Sadat_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "CIA — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "بورتريه للرئيس محمد أنور السادات — القائد الأعلى للقوات المسلحة أثناء حرب أكتوبر.",
+      "tags": [
+        "القيادة",
+        "السادات"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "08"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-sadat-kissinger-1973",
+      "title": "السادات مع كيسنجر — نوفمبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/sadat-kissinger-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-sadat",
+      "source": "وكالة الاستخبارات المركزية الأمريكية (CIA)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sadat_and_Kissinger_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "date": "نوفمبر 1973",
+      "credit": "CIA — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "الرئيس السادات مع مستشار الأمن القومي ووزير الخارجية الأمريكي هنري كيسنجر خلال دبلوماسية ما بعد وقف النار.",
+      "tags": [
+        "القيادة",
+        "السادات",
+        "الدبلوماسية"
+      ],
+      "chapter": [
+        "05",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-sadat-mubarak-1973",
+      "title": "السادات ومبارك يدرسان خطط الحرب — أكتوبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/sadat-mubarak-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-mubarak",
+      "source": "وكالة الاستخبارات المركزية الأمريكية (CIA)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sadat_and_Mubarak_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "CIA — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "الرئيس السادات مع قائد القوات الجوية حسني مبارك أثناء مراجعة خطط الحرب.",
+      "tags": [
+        "القيادة",
+        "القوات الجوية",
+        "غرفة العمليات"
+      ],
+      "chapter": [
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready",
+      "focus": "72% 15%",
+      "zoom": 1.7
+    },
+    {
+      "id": "leader-army-leaders-1973",
+      "title": "قادة الجيش المصري في حرب 6 أكتوبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/army-leaders-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": null,
+      "source": "القوات المسلحة المصرية — الشؤون المعنوية (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egyptian_Army_Leaders_in_6th_Oct_1973_War.jpg",
+      "date": "أكتوبر 1973",
+      "credit": "Egyptian Armed Forces — Moral Affairs",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "قادة الجيش المصري: السادات وأحمد إسماعيل علي وسعد الشاذلي والجمسي ومبارك وأبو ذكري وفهمي.",
+      "tags": [
+        "القيادة",
+        "السادات",
+        "أحمد إسماعيل",
+        "الشاذلي"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "map-usma-gazelle",
+      "title": "خارطة عملية غزال — مرجع مقارن",
+      "type": "map",
+      "category": "crossing",
+      "file": "/media/maps/crossing/usma-gazelle-1973.png",
+      "embedUrl": null,
+      "poster": null,
+      "source": "قسم التاريخ بالأكاديمية العسكرية الأمريكية (West Point)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1973_sinai_war_maps2.png",
+      "date": "1973",
+      "credit": "U.S. Military Academy — Dept. of History",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "خارطة أمريكية لعملية «غزال» — خطة العبور الإسرائيلي المضاد غرب القناة. مرجع مقارن وليست خارطة العبور المصري.",
+      "tags": [
+        "خرائط",
+        "مرجع مقارن"
+      ],
+      "chapter": [
+        "04",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "map-sinai-oct15",
+      "title": "خارطة جبهة سيناء — منتصف أكتوبر 1973",
+      "type": "map",
+      "category": "timeline",
+      "file": "/media/maps/timeline/sinai-front-oct15.svg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — Rr016",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yom_Kippur_War_-_Sinai_Front_(October_15%2C_1973).svg",
+      "date": "15 أكتوبر 1973",
+      "credit": "Rr016 — CC BY-SA 2.0",
+      "rights": "CC BY-SA 2.0 — يُعرض مع نسب العمل لصاحبه",
+      "license": "cc-by-sa-2.0",
+      "usage": "local",
+      "description": "خارطة تفصيلية لخطوط الجبهة في سيناء منتصف أكتوبر 1973 قبل الاختراق الإسرائيلي للقناة.",
+      "tags": [
+        "خرائط",
+        "سيناء",
+        "الجبهة"
+      ],
+      "chapter": [
+        "04",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-victory-epic",
+      "title": "ملحمة النصر — وزارة الدفاع",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/slCWL2daxxU",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=slCWL2daxxU",
+      "date": null,
+      "credit": "وزارة الدفاع المصرية — القناة الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "فيلم توثيقي رسمي عن ملحمة النصر من إنتاج القوات المسلحة.",
+      "tags": [
+        "وثائقي",
+        "النصر"
+      ],
+      "chapter": [
+        "03",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-future-crossing",
+      "title": "أكتوبر العبور للمستقبل — وزارة الدفاع",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/3p0iBJCRCUc",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=3p0iBJCRCUc",
+      "date": null,
+      "credit": "وزارة الدفاع المصرية — القناة الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "فيلم رسمي يربط عبور أكتوبر بمسار المستقبل.",
+      "tags": [
+        "وثائقي"
+      ],
+      "chapter": [
+        "04",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-crossing-victory",
+      "title": "أكتوبر العبور للنصر — وزارة الدفاع",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/RsWRLEUK4_I",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=RsWRLEUK4_I",
+      "date": null,
+      "credit": "وزارة الدفاع المصرية — القناة الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "فيلم رسمي عن عبور أكتوبر والنصر.",
+      "tags": [
+        "العبور",
+        "النصر"
+      ],
+      "chapter": [
+        "03"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-crossing-song",
+      "title": "أغنية أهل العبور — وزارة الدفاع",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/FglvAgYC6XI",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=FglvAgYC6XI",
+      "date": null,
+      "credit": "وزارة الدفاع المصرية — القناة الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "أغنية وطنية رسمية عن أهل العبور — مادة موسيقية من القناة الرسمية (تضمين فقط).",
+      "tags": [
+        "أغنية وطنية"
+      ],
+      "chapter": [
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-communique-7",
+      "title": "البيان العسكري رقم 7 — التسجيل الأصلي",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/L1z-qPAp_OI",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=L1z-qPAp_OI",
+      "date": "6 أكتوبر 1973",
+      "credit": "وزارة الدفاع المصرية — القناة الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "التسجيل الأصلي للبيان رقم 7 (بيان العبور) بصوت الإذاعي صبري سلامة — عبر القناة الرسمية لوزارة الدفاع.",
+      "tags": [
+        "بيان 7",
+        "صبري سلامة",
+        "تسجيل تاريخي"
+      ],
+      "chapter": [
+        "02",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-communique-6",
+      "title": "البيان العسكري رقم 6 — التسجيل الأصلي",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/4t7nzLIS6lI",
+      "poster": null,
+      "source": "وزارة الدفاع المصرية — القناة الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=4t7nzLIS6lI",
+      "date": "6 أكتوبر 1973",
+      "credit": "وزارة الدفاع المصرية — القناة الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "التسجيل الأصلي للبيان العسكري رقم 6 — عبر القناة الرسمية لوزارة الدفاع.",
+      "tags": [
+        "بيانات",
+        "تسجيل تاريخي"
+      ],
+      "chapter": [
+        "02",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-extra-crossing",
+      "title": "كيف حطّم الجيش أسطورة الجيش الذي لا يُقهر — eXtra",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/s2kBMAb9kts",
+      "poster": null,
+      "source": "قناة eXtra news الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=s2kBMAb9kts",
+      "date": null,
+      "credit": "قناة eXtra news الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "تغطية وثائقية رسمية لملحمة العبور من قناة إكسترا نيوز.",
+      "tags": [
+        "وثائقي",
+        "العبور"
+      ],
+      "chapter": [
+        "03",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-cbc-october",
+      "title": "أكتوبر المجيد — CBC",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/puqlpiNkSsw",
+      "poster": null,
+      "source": "قناة CBC Egypt الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=puqlpiNkSsw",
+      "date": null,
+      "credit": "قناة CBC Egypt الرسمية — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "تغطية رسمية لذكرى أكتوبر من قناة CBC.",
+      "tags": [
+        "الذكرى",
+        "تغطية"
+      ],
+      "chapter": [
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-ch1-crossing",
+      "title": "ملحمة العبور — القناة الأولى",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/MWBByPezchk",
+      "poster": null,
+      "source": "القناة الأولى المصرية الرسمية (ماسبيرو)",
+      "sourceUrl": "https://www.youtube.com/watch?v=MWBByPezchk",
+      "date": null,
+      "credit": "القناة الأولى المصرية الرسمية (ماسبيرو) — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "تغطية رسمية لملحمة العبور من القناة الأولى المصرية.",
+      "tags": [
+        "العبور",
+        "تغطية"
+      ],
+      "chapter": [
+        "03"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-shazly-group-1973",
+      "title": "الشاذلي وهيكل وإسماعيل في الجبهة",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/shazly-group-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-shazly",
+      "source": "ويكيميديا كومنز — PD Egypt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saad_el-Shazly_with_Hiekal_and_Ismail_at_front.jpg",
+      "date": null,
+      "credit": "PD Egypt via Commons",
+      "rights": "Public Domain وفق ويكيميديا كومنز (PD Egypt)",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "الفريق الشاذلي مع محمد حسنين هيكل والمشير أحمد إسماعيل في الجبهة — التاريخ الدقيق للصورة غير موثق في المصدر.",
+      "tags": [
+        "القيادة",
+        "الشاذلي",
+        "أحمد إسماعيل",
+        "الجبهة"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready",
+      "focus": "50% 15%",
+      "zoom": 1.4
+    },
+    {
+      "id": "doc-un338-pdf",
+      "title": "قرار مجلس الأمن 338 — المسح الرسمي (PDF)",
+      "type": "document",
+      "category": "documents",
+      "file": "/media/documents/archival/unscr-338-1973.pdf",
+      "embedUrl": null,
+      "poster": null,
+      "source": "الأمم المتحدة — مكتبة UNISPAL",
+      "sourceUrl": "https://docs.un.org/ar/S/RES/338(1973)",
+      "date": "22 أكتوبر 1973",
+      "credit": "UN — S/RES/338(1973)",
+      "rights": "وثيقة دولية رسمية عامة — public record",
+      "license": "public-record",
+      "usage": "local",
+      "description": "المسح الضوئي الرسمي لقرار مجلس الأمن 338 الداعي لوقف إطلاق النار (صفحة واحدة).",
+      "tags": [
+        "وثائق",
+        "الأمم المتحدة",
+        "وقف إطلاق النار"
+      ],
+      "chapter": [
+        "09",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-ismail-portrait-1974",
+      "title": "المشير أحمد إسماعيل علي — بورتريه رسمي",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/ismail-portrait-1974.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-ismail",
+      "source": "الهيئة العامة للاستعلامات (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_Ahmed_Ismail_Ali.jpg",
+      "date": "1974",
+      "credit": "sis.gov.eg — Public Domain",
+      "rights": "عمل حكومي مصري — Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "بورتريه رسمي للمشير أحمد إسماعيل علي — القائد العام للقوات المسلحة ووزير الحربية أثناء حرب أكتوبر.",
+      "tags": [
+        "القيادة",
+        "أحمد إسماعيل"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-mamoun-portrait-1972",
+      "title": "اللواء سعد مأمون — بورتريه رسمي",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/mamoun-portrait-1972.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-mamoun",
+      "source": "القوات المسلحة المصرية (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_Saad_Maamoun.jpg",
+      "date": "1972",
+      "credit": "Egyptian Armed Forces — Public Domain",
+      "rights": "عمل حكومي مصري — Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "بورتريه رسمي للواء سعد مأمون — قائد الجيش الثاني الميداني في حرب أكتوبر.",
+      "tags": [
+        "القيادة",
+        "الجيش الثاني"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-mubarak-portrait-1973",
+      "title": "حسني مبارك — قائد القوات الجوية 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/mubarak-portrait-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-mubarak",
+      "source": "القوات المسلحة المصرية (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:General_Hosni_Mubarak.jpg",
+      "date": "1973",
+      "credit": "Egyptian Armed Forces — Public Domain",
+      "rights": "عمل حكومي مصري — Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "بورتريه للواء طيار حسني مبارك — قائد القوات الجوية أثناء حرب أكتوبر.",
+      "tags": [
+        "القيادة",
+        "القوات الجوية"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-shazly-crossing-1973",
+      "title": "الشاذلي يعبر قناة السويس — 8 أكتوبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/shazly-crossing-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-shazly",
+      "source": "مكتبة الإسكندرية — ذاكرة مصر المعاصرة (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B4%D8%A7%D8%B0%D9%84%D9%8A%20%D9%8A%D8%B9%D8%A8%D8%B1%20%D9%82%D9%86%D8%A7%D8%A9%20%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3.jpg",
+      "date": "8 أكتوبر 1973",
+      "credit": "modernegypt.bibalex.org — Public Domain",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "الفريق سعد الدين الشاذلي يعبر قناة السويس إلى الضفة الشرقية في 8 أكتوبر 1973.",
+      "tags": [
+        "القيادة",
+        "الشاذلي",
+        "العبور"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "03"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-wasel-portrait-1972",
+      "title": "اللواء عبد المنعم واصل — بورتريه رسمي",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/wasel-portrait-1972.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-wasel",
+      "source": "القوات المسلحة المصرية (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D9%86%D8%B9%D9%85%20%D9%88%D8%A7%D8%B5%D9%84.jpg",
+      "date": "1972",
+      "credit": "Egyptian Armed Forces — Public Domain",
+      "rights": "عمل حكومي مصري — Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "بورتريه رسمي للواء عبد المنعم واصل — قائد الجيش الثالث الميداني في حرب أكتوبر.",
+      "tags": [
+        "القيادة",
+        "الجيش الثالث"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-shazly-eastbank-1973",
+      "title": "الشاذلي على الضفة الشرقية بعد العبور",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/shazly-eastbank-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-shazly",
+      "source": "ويكيميديا كومنز — PD",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saad_el-Shazly_1973_%D8%B9%D9%84%D9%89%20%D8%A7%D9%84%D8%AC%D8%A8%D9%87%D8%A9%20%D8%A7%D9%84%D8%B4%D8%B1%D9%82%D9%8A%D8%A9%20%D8%A8%D8%B9%D8%AF%20%D8%A7%D9%84%D8%B9%D8%A8%D9%88%D8%B1.jpg",
+      "date": null,
+      "credit": "PD via Commons",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "الفريق الشاذلي على الضفة الشرقية بعد العبور — التاريخ الدقيق للصورة غير موثق في المصدر.",
+      "tags": [
+        "القيادة",
+        "الشاذلي",
+        "الضفة الشرقية"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-shazly-front-oct8",
+      "title": "الشاذلي في جبهة سيناء — 8 أكتوبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/shazly-front-oct8.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-shazly",
+      "source": "ويكيميديا كومنز — PD",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saad_el-Shazly_at_front.jpg",
+      "date": "8 أكتوبر 1973",
+      "credit": "PD via Commons",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "الفريق الشاذلي في جبهة سيناء يوم 8 أكتوبر 1973.",
+      "tags": [
+        "القيادة",
+        "الشاذلي",
+        "سيناء"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-tlass-sadat-1973",
+      "title": "السادات مع وزير الدفاع السوري 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/tlass-sadat-1973.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-sadat",
+      "source": "موقع التاريخ السوري (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syrian_Defense_Minister_Mustafa_Tlass_with_the_Egyptian_president_Anwar_Sadat_in_1973.jpg",
+      "date": "1973",
+      "credit": "syrianhistory.com — Public Domain",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "وزير الدفاع السوري مصطفى طلاس مع الرئيس السادات عام 1973 — التنسيق المصري السوري قبل الحرب.",
+      "tags": [
+        "القيادة",
+        "السادات",
+        "الجبهة السورية"
+      ],
+      "chapter": [
+        "01",
+        "05"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "leader-sadat-front-oct1973",
+      "title": "السادات على الجبهة المصرية — أكتوبر 1973",
+      "type": "image",
+      "category": "leaders",
+      "file": "/media/images/leaders/sadat-front-oct1973.png",
+      "embedUrl": null,
+      "poster": null,
+      "person": "p-sadat",
+      "source": "ويكيميديا كومنز — via اليوم السابع",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sadat_on_the_Egyptian_Front%2C_October_War.png",
+      "date": "أكتوبر 1973",
+      "credit": "youm7.com — Public Domain",
+      "rights": "Public Domain وفق ويكيميديا كومنز",
+      "license": "public-domain-commons",
+      "usage": "local",
+      "description": "الرئيس السادات على الجبهة المصرية أثناء حرب أكتوبر.",
+      "tags": [
+        "القيادة",
+        "السادات",
+        "الجبهة"
+      ],
+      "chapter": [
+        "01",
+        "05",
+        "04"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "map-sinai-6-13",
+      "title": "خارطة سيناء 6–13 أكتوبر 1973",
+      "type": "map",
+      "category": "timeline",
+      "file": "/media/maps/timeline/sinai-6-13-map.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "قسم التاريخ بالأكاديمية العسكرية الأمريكية (via ويكيميديا كومنز)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1973_sinai_war_6-13_en.jpg",
+      "date": "6–13 أكتوبر 1973",
+      "credit": "U.S. Military Academy — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "خارطة المرحلة الأولى للحرب في سيناء بين 6 و13 أكتوبر 1973.",
+      "tags": [
+        "خرائط",
+        "سيناء"
+      ],
+      "chapter": [
+        "04",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "map-sinai-ar",
+      "title": "خارطة التحركات على الجبهة المصرية (بالعربية)",
+      "type": "map",
+      "category": "timeline",
+      "file": "/media/maps/timeline/sinai-ar-map.jpg",
+      "embedUrl": null,
+      "poster": null,
+      "source": "ويكيميديا كومنز — عمل مشتق (CC BY-SA 4.0)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1973_sinai_war_maps-ar.jpg",
+      "date": "6–13 أكتوبر 1973",
+      "credit": "Commons — CC BY-SA 4.0",
+      "rights": "CC BY-SA 4.0 — يُعرض مع نسب العمل",
+      "license": "cc-by-sa-4.0",
+      "usage": "local",
+      "description": "خارطة التحركات العسكرية على الجبهة المصرية بين 6 و13 أكتوبر — بتسميات عربية.",
+      "tags": [
+        "خرائط",
+        "سيناء",
+        "بالعربية"
+      ],
+      "chapter": [
+        "04",
+        "06"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-sadat-war-speech",
+      "title": "خطاب السادات أثناء حرب أكتوبر — من أرشيف ماسبيرو",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/-KeF10pEo3M",
+      "poster": null,
+      "source": "ذاكرة ماسبيرو — الهيئة الوطنية للإعلام",
+      "sourceUrl": "https://www.youtube.com/watch?v=-KeF10pEo3M",
+      "date": "أكتوبر 1973",
+      "credit": "ذاكرة ماسبيرو — embed رسمي",
+      "rights": "© الهيئة الوطنية للإعلام — تضمين رسمي، لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "speaker": "محمد أنور السادات",
+      "description": "خطاب الرئيس السادات أثناء حرب أكتوبر من أرشيف التلفزيون المصري (ذاكرة ماسبيرو).",
+      "tags": [
+        "خطابات",
+        "السادات",
+        "ماسبيرو"
+      ],
+      "chapter": [
+        "05",
+        "07"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-heroes-ceremony",
+      "title": "حفل تكريم أبطال أكتوبر كاملًا",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/kqbAJhgDvRQ",
+      "poster": null,
+      "source": "ذاكرة ماسبيرو — الهيئة الوطنية للإعلام",
+      "sourceUrl": "https://www.youtube.com/watch?v=kqbAJhgDvRQ",
+      "date": "1973",
+      "credit": "ذاكرة ماسبيرو — embed رسمي",
+      "rights": "© الهيئة الوطنية للإعلام — تضمين رسمي، لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "description": "حفل تكريم أبطال أكتوبر كاملًا من أرشيف التلفزيون المصري.",
+      "tags": [
+        "تكريم",
+        "الأبطال",
+        "ماسبيرو"
+      ],
+      "chapter": [
+        "07",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "vid-sadat-historic-speech",
+      "title": "الخطاب التاريخي بعد النصر المجيد",
+      "type": "video",
+      "category": "archival",
+      "file": null,
+      "embedUrl": "https://www.youtube-nocookie.com/embed/gn-sL_yekyA",
+      "poster": null,
+      "source": "قناة eXtra news الرسمية",
+      "sourceUrl": "https://www.youtube.com/watch?v=gn-sL_yekyA",
+      "date": "1973",
+      "credit": "eXtra news — embed رسمي",
+      "rights": "تضمين رسمي — لا إعادة استضافة",
+      "license": "official-embed",
+      "usage": "embed",
+      "speaker": "محمد أنور السادات",
+      "description": "الخطاب التاريخي للرئيس السادات بعد النصر المجيد — من أرشيف القناة.",
+      "tags": [
+        "خطابات",
+        "السادات"
+      ],
+      "chapter": [
+        "07",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    },
+    {
+      "id": "aud-anthem-bilady",
+      "title": "النشيد الوطني المصري — بلادي بلادي",
+      "type": "audio",
+      "category": "anthem",
+      "file": "/media/audio/anthem/bilady-navy-band.ogg",
+      "embedUrl": null,
+      "poster": null,
+      "speaker": "الفرقة الموسيقية للبحرية الأمريكية",
+      "person": null,
+      "source": "ويكيميديا كومنز — تسجيل البحرية الأمريكية",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bilady,_Bilady,_Bilady.ogg",
+      "date": "2011 (تسجيل حديث — اللحن 1923)",
+      "credit": "U.S. Navy Band — Public Domain",
+      "rights": "عمل حكومي أمريكي — Public Domain",
+      "license": "public-domain-usgov",
+      "usage": "local",
+      "description": "أداء الفرقة الموسيقية للبحرية الأمريكية للنشيد الوطني المصري — تسجيل حديث ملك عام يُعزف تحيةً للذكرى، وليس تسجيلًا من عام 1973.",
+      "tags": [
+        "النشيد الوطني",
+        "بلادي"
+      ],
+      "chapter": [
+        "07",
+        "09"
+      ],
+      "authenticity": "archival",
+      "status": "ready"
+    }
+  ]
+}

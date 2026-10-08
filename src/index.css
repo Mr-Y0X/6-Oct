@@ -1,0 +1,228 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #06090d;
+  --color-night: #080b10;
+  --color-navy: #0a1017;
+  --color-navy-2: #0d141d;
+  --color-navy-3: #111a26;
+  --color-line: #1c2531;
+  --color-gold: #cfa64f;
+  --color-gold-soft: #a8843c;
+  --color-gold-bright: #ecd28f;
+  --color-paper: #ece5d3;
+  --color-paper-dim: #c9c2b0;
+  --color-mute: #8a94a0;
+  --color-olive: #6b7150;
+  --color-ember: #b0722e;
+
+  --font-body: "Cairo", "IBM Plex Sans Arabic", system-ui, sans-serif;
+  --font-plex: "IBM Plex Sans Arabic", "Cairo", sans-serif;
+  --font-display: "Amiri", serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+/* ------------------------------------------------------------ Base & Performance */
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink text-paper font-body antialiased;
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+  background-color: #06090d;
+}
+
+::selection {
+  background: rgba(207, 166, 79, 0.85);
+  color: #0a0d11;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #06090d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cfa64f;
+}
+
+/* ------------------------------------------------------------ Typography */
+.font-display {
+  font-family: var(--font-display);
+}
+.font-plex {
+  font-family: var(--font-plex);
+}
+.font-mono-x {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 20px rgba(207, 166, 79, 0.35);
+}
+
+/* ------------------------------------------------------------ Lightweight Film Layer (Ultra Fast) */
+.film-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='1'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.7'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
+}
+
+.vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 89;
+  pointer-events: none;
+  background: radial-gradient(circle at center, transparent 60%, rgba(2, 4, 7, 0.6) 100%);
+}
+
+.scanlines {
+  position: fixed;
+  inset: 0;
+  z-index: 88;
+  pointer-events: none;
+  opacity: 0.12;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 2px,
+    rgba(0, 0, 0, 0.4) 3px
+  );
+}
+
+/* ------------------------------------------------------------ Reveal System (Fast GPU Transforms) */
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 22px, 0);
+  transition: opacity 0.75s ease-out, transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+.reveal[data-variant="fade"] {
+  transform: none;
+}
+.reveal[data-variant="zoom"] {
+  transform: scale(0.96);
+}
+.reveal[data-variant="clip"] {
+  transform: translate3d(0, 16px, 0);
+}
+.reveal.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ------------------------------------------------------------ Ornaments & Plates */
+.hairline {
+  background: linear-gradient(to left, transparent, rgba(207, 166, 79, 0.5), transparent);
+  height: 1px;
+}
+
+.plate {
+  border: 1px solid rgba(207, 166, 79, 0.22);
+  background: linear-gradient(165deg, rgba(13, 20, 29, 0.95), rgba(8, 11, 16, 0.98));
+}
+
+.corner-frame {
+  position: relative;
+}
+.corner-frame::before,
+.corner-frame::after {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-color: rgba(207, 166, 79, 0.65);
+  border-style: solid;
+  pointer-events: none;
+}
+.corner-frame::before {
+  top: -1px;
+  right: -1px;
+  border-width: 1px 1px 0 0;
+}
+.corner-frame::after {
+  bottom: -1px;
+  left: -1px;
+  border-width: 0 0 1px 1px;
+}
+
+.stamp {
+  font-family: var(--font-mono);
+  letter-spacing: 0.1em;
+  color: rgba(207, 166, 79, 0.85);
+}
+
+/* ------------------------------------------------------------ Map flow */
+.route-dash {
+  stroke-dasharray: 6 5;
+  animation: route-flow 2.8s linear infinite;
+}
+@keyframes route-flow {
+  to {
+    stroke-dashoffset: -44;
+  }
+}
+
+.marker-pulse {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: marker-pulse 2.2s ease-out infinite;
+}
+@keyframes marker-pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+/* ------------------------------------------------------------ Caret */
+.type-caret {
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  margin-inline-start: 4px;
+  background: var(--color-gold);
+  vertical-align: -0.1em;
+  animation: caret-blink 0.75s steps(1) infinite;
+}
+@keyframes caret-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* ------------------------------------------------------------ Audio Input */
+input[type="range"].volume {
+  @apply h-1.5 w-20 cursor-pointer appearance-none rounded-full bg-line;
+}
+input[type="range"].volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--color-gold);
+}
